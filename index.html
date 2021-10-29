@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	 <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css?family=Lato:ital,wght@1,700&family=Montserrat:wght@200&family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Federo&family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+	<!-- Logo Icon -->
+    <link rel="shortcut icon" type="image/png" href="images/logo.jpg"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+   
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/custom.css">
+     <!-- Testimonials Stylesheet -->
+    <link rel="stylesheet" href="css/testimonials.css">
+	<title>Home | SIALKOT MOTOR LTD</title>
+</head>
+<body onload="displayYear()">
+	<!-- Navigation Bar -->
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<img src="images/logo.jpg" alt="" width="40" height="40" class="img-fluid">
+				<strong>Sialkot Motor</strong>
+				<!-- <span class="navbar-brand mb-0 h1"> --><!-- </span> -->
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item active">
+						<a class="nav-link" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="inventory.html">Inventory</a>
+					</li>
+					<!-- <li class="nav-item">
+						<a class="nav-link" href="#">Services</a>
+					</li> -->
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact Us</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav navbar-right">
+					<!-- <li class="nav-item me-3 me-lg-0">
+						<a class="nav-link" href="#" rel="nofollow">
+							<span class="phone">
+								<i class="fas fa-phone-alt fa-lg"></i>
+								+254722828929
+							</span>
+						</a>
+					</li> -->
+					<li class="nav-item me-3 me-lg-0">
+						<a class="nav-link" href="https://www.facebook.com/SialkotMotorsLtd" target="_blank">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+					</li>
+					<li class="nav-item me-3 me-lg-0">
+						<a class="nav-link" href="https://www.instagram.com/sialkot_motor_ltd/?hl=en" target="_blank">
+							<i class="fab fa-instagram"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- End of Navigation Section -->
+	<!-- Main Section of Homepage -->
+	<main>
+		<!-- Welcome Carousel -->
+		<div id="welcomeCarousel" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#welcomeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#welcomeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#welcomeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner">
+				<div class="carousel-item active" data-bs-interval="10000">
+					<img src="images/gallery.jpg" class="d-block w-100 img-fluid" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h5 class="text-danger">SIALKOT MOTOR LTD</h5>
+						<p class="text-info">Dealers in New and Used Japanese Cars</p>
+					</div>
+				</div>
+				<div class="carousel-item" data-bs-interval="2000">
+					<img src="images/fleet.jpg" class="d-block w-100 img-fluid" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<div class="d-flex justify-content-center align-items-center h-100">
+							<a role="button" href="inventory.html" class="btn btn-outline-primary">Shop</a>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="images/exterior.jpg" class="d-block w-100 img-fluid" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<div class="d-flex justify-content-center align-items-center h-100">
+							<a role="button" href="contact.html" class="btn btn-outline-primary">Contact</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#welcomeCarousel" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#welcomeCarousel" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+		<!-- End of Welcome Carousel -->
+		<!-- Car Highlight Section -->
+		<section class="highlights">
+			<div class="container-fluid">
+				<h1 class="text-center py-2">Available <span class="text-custom">Cars</span></h1>
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12 my-3">
+						<div class="card border-info h-100">
+							<img src="images/alphard-0.jpg" class="card-img-top" alt="TOYOTA ALPHARD">
+							<div class="card-body">
+								<h5 class="card-title text-center">Toyota Alphard White</h5>
+								<p class="card-text">Condition <br>Transmission<br>Mileage</p>
+								<span class="badge rounded-pill bg-info text-dark py-2">Kshs 3,500,000</span>
+							</div>
+							<div class="card-footer bg-transparent border-info text-center">
+								<a href="specific_page.html" role="button" class="btn btn-outline-success btn-lg">View</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 my-3">
+						<div class="card border-info h-100">
+							<img src="images/fielder-white-0.jpg" class="card-img-top" alt="TOYOTA ALPHARD">
+							<div class="card-body">
+								<h5 class="card-title text-center">Toyota Fielder White</h5>
+								<p class="card-text">Condition <br>Transmission<br>Mileage</p>
+								<span class="badge rounded-pill bg-info text-dark py-2">Kshs 3,500,000</span>
+							</div>
+							<div class="card-footer bg-transparent border-info text-center">
+								<a href="specific_page.html" role="button" class="btn btn-outline-success btn-lg">View</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 my-3">
+						<div class="card border-info h-100">
+							<img src="images/fielder-2015.jpg" class="card-img-top" alt="TOYOTA ALPHARD">
+							<div class="card-body">
+								<h5 class="card-title text-center">Toyota Fielder 2015</h5>
+								<p class="card-text">Condition <br>Transmission<br>Mileage</p>
+								<span class="badge rounded-pill bg-info text-dark py-2">Kshs 3,500,000</span>
+							</div>
+							<div class="card-footer bg-transparent border-info text-center">
+								<a href="specific_page.html" role="button" class="btn btn-outline-success btn-lg">View</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 my-3">
+						<div class="card border-info h-100">
+							<img src="images/harrier_sunroof.jpg" class="card-img-top" alt="TOYOTA ALPHARD">
+							<div class="card-body">
+								<h5 class="card-title text-center">Toyota Harrier White w\Sunroof</h5>
+								<p class="card-text">Condition <br>Transmission<br>Mileage</p>
+								<span class="badge rounded-pill bg-info text-dark py-2">Kshs 3,500,000</span>
+							</div>
+							<div class="card-footer bg-transparent border-info text-center">
+								<a href="specific_page.html" role="button" class="btn btn-outline-success btn-lg">View</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 my-3">
+						<div class="card border-info h-100">
+							<img src="images/harrier-white-0.jpg" class="card-img-top" alt="TOYOTA ALPHARD">
+							<div class="card-body">
+								<h5 class="card-title text-center">Toyota Harrier White</h5>
+								<p class="card-text">Condition <br>Transmission<br>Mileage</p>
+								<span class="badge rounded-pill bg-info text-dark py-2">Kshs 3,500,000</span>
+							</div>
+							<div class="card-footer bg-transparent border-info text-center">
+								<a href="specific_page.html" role="button" class="btn btn-outline-success btn-lg">View</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 my-3">
+						<div class="card border-info h-100">
+							<img src="images/lexus-white-0.jpg" class="card-img-top" alt="TOYOTA ALPHARD">
+							<div class="card-body">
+								<h5 class="card-title text-center">Lexus White</h5>
+								<p class="card-text">Condition <br>Transmission<br>Mileage</p>
+								<span class="badge rounded-pill bg-info text-dark py-2">Kshs 3,500,000</span>
+							</div>
+							<div class="card-footer bg-transparent border-info text-center">
+								<a href="specific_page.html" role="button" class="btn btn-outline-success btn-lg">View</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 my-3">
+						<div class="card border-info h-100">
+							<img src="images/lexus.jpg" class="card-img-top" alt="TOYOTA ALPHARD">
+							<div class="card-body">
+								<h5 class="card-title text-center">Lexus Black</h5>
+								<p class="card-text">Condition <br>Transmission<br>Mileage</p>
+								<span class="badge rounded-pill bg-info text-dark py-2">Kshs 3,500,000</span>
+							</div>
+							<div class="card-footer bg-transparent border-info text-center">
+								<a href="specific_page.html" role="button" class="btn btn-outline-success btn-lg">View</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 my-3">
+						<div class="card border-info h-100">
+							<img src="images/Lexus_450_0.jpg" class="card-img-top" alt="TOYOTA ALPHARD">
+							<div class="card-body">
+								<h5 class="card-title text-center">Lexus V8</h5>
+								<p class="card-text">Condition <br>Transmission<br>Mileage</p>
+								<span class="badge rounded-pill bg-info text-dark py-2">Kshs 3,500,000</span>
+							</div>
+							<div class="card-footer bg-transparent border-info text-center">
+								<a href="specific_page.html" role="button" class="btn btn-outline-success btn-lg">View</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 my-3">
+						<div class="card border-info h-100">
+							<img src="images/mitsubishi-outlander-0.jpg" class="card-img-top" alt="TOYOTA ALPHARD">
+							<div class="card-body">
+								<h5 class="card-title text-center">Mitsubishi Outlander</h5>
+								<p class="card-text">Condition <br>Transmission<br>Mileage</p>
+								<span class="badge rounded-pill bg-info text-dark py-2">Kshs 3,500,000</span>
+							</div>
+							<div class="card-footer bg-transparent border-info text-center">
+								<a href="specific_page.html" role="button" class="btn btn-outline-success btn-lg">View</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 my-3">
+						<div class="card border-info h-100">
+							<img src="images/subaru-forester-0.jpg" class="card-img-top" alt="TOYOTA ALPHARD">
+							<div class="card-body">
+								<h5 class="card-title text-center">Subaru Forester</h5>
+								<p class="card-text">Condition <br>Transmission<br>Mileage</p>
+								<span class="badge rounded-pill bg-info text-dark py-2">Kshs 3,500,000</span>
+							</div>
+							<div class="card-footer bg-transparent border-info text-center">
+								<a href="specific_page.html" role="button" class="btn btn-outline-success btn-lg">View</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 my-3">
+						<div class="card border-info h-100">
+							<img src="images/toyota-prado-2015.jpg" class="card-img-top" alt="TOYOTA ALPHARD">
+							<div class="card-body">
+								<h5 class="card-title text-center">Toyota Prado 2015</h5>
+								<p class="card-text">Condition <br>Transmission<br>Mileage</p>
+								<span class="badge rounded-pill bg-info text-dark py-2">Kshs 3,500,000</span>
+							</div>
+							<div class="card-footer bg-transparent border-info text-center">
+								<a href="specific_page.html" role="button" class="btn btn-outline-success btn-lg">View</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-12 my-3">
+						<div class="card border-info h-100">
+							<img src="images/toyota-succeed-0.jpg" class="card-img-top" alt="TOYOTA ALPHARD">
+							<div class="card-body">
+								<h5 class="card-title text-center">Toyota Succeed 2016</h5>
+								<p class="card-text">Condition <br>Transmission<br>Mileage</p>
+								<span class="badge rounded-pill bg-info text-dark py-2">Kshs 3,500,000</span>
+							</div>
+							<div class="card-footer bg-transparent border-info text-center">
+								<a href="specific_page.html" role="button" class="btn btn-outline-success btn-lg">View</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row my-3">
+					<a role="button" href="inventory.html" class="btn btn-outline-primary btn-lg mx-auto py-2 mb-5" style="width: 50%;">Show More</a>
+				</div>
+			</div>
+		</section>
+		<!-- End of Car Highlights Section -->
+		<hr class="m-4">
+		<!-- Our Services Section -->
+		<section class="services">
+			<div class="container">
+				<h1  class="text-center py-3">Our <span class="text-custom">Services</span></h1>
+				<div class="row">
+					<div class="col-md-4 col-sm-12">
+						<!-- <h2 class="text-center">Asset Finance</h2> -->
+						<div class="card mb-3">
+							<div class="card-header">
+								<h2 class="text-center">Auto <span class="text-custom">Financing</span></h2>
+							</div>
+							<img src="images/lexus.jpg" class="card-img-top img-fluid" alt="Sialkot Motor Direct Imports">
+							<div class="card-body">
+								<h3 class="card-title text-center">
+									<span><i class="fas fa-hand-holding-usd"></i></span>
+								</h3>
+								<p class="card-text">At Sialkot Motors we've worked hard to bring you a financial solution that delivers on ease and simplicity. 
+									<br>
+								You can choose between various payment options:
+								</p>
+								<ul class="list-group list-group-flush">
+									<li class="list-group-item">Bank Financing</li>
+									<li class="list-group-item">Company Financing</li>
+									<li class="list-group-item">In-house Financing</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<!-- <h2 class="text-center">Trade In</h2> -->
+						<div class="card mb-3">
+							<div class="card-header">
+								<h2 class="text-center">Direct <span class="text-custom">Imports</span></h2>
+							</div>
+							<img src="images/fleet_cover.jpg" class="card-img-top img-fluid" alt="Sialkot Motors Direct Imports">
+							<div class="card-body">
+								<h3 class="card-title text-center">
+									<span><i class="fas fa-globe"></i></span>
+								</h3>
+								<p class="card-text">Each and every automobile in our great stock is purchased after careful appraisal and inspection in Japan by our discerning and experienced buyers.
+									<br>
+								We perform thorough inspection for each automobile, so you never have to worry the quality and condition of the automobile, and will be surely satisfied with your automobile.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12">
+						<!-- <h2 class="text-center">Countrywide Delivery</h2> -->
+						<div class="card text-dark mb-3">
+						<div class="card-header">
+							<h2 class="text-center">Trade <span class="text-custom">In</span></h2>
+						</div>
+						<img src="images/yard.jpg" class="card-img-top img-fluid" alt="Sialkot Motors Direct Imports">
+						<div class="card-body">
+							<h3 class="card-title text-center">
+								<span><i class="fas fa-car"></i></span>
+							</h3>
+							<p class="card-text">
+								Receive a fair price for your car and pay a great price for your next. At Sialkot Motors we know it's important to get the best value for your car, because you’ll be using the money to help buy its replacement. Simply find the perfect car for you and our experts are on hand to make sure you get the best price and true value of your old car
+							</p>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End of Services Section -->
+
+		<hr class="my-3">
+
+		<!-- Testimonial Carousel -->
+		<section class="testimonials">
+			<!-- Slideshow container -->
+			<div class="slideshow-container">
+				<h3 class="text-center pt-2">What Our <span class="text-custom">Customers Say</span></h3>
+				<!-- Full-width slides/quotes -->
+				<div class="mySlides">
+					<img src="images/customer-1.jpg" alt="Customer Testimonial" class="img-fluid mx-auto">
+					<hr class="text-danger">
+					<q>It was a pleasure working with Sialkot Motors and their staff. Everything went smoothly and I got the best deal for both my trade-in. I have recommended Sialkot Motors to everyone I know! I know where to go for my next car purchase. </q>
+					<p class="author">- Customer Name (Subaru) -</p>
+				</div>
+
+				<div class="mySlides">
+					<img src="images/customer4.jpg" alt="Customer Testimonial" class="img-fluid mx-auto">
+					<hr class="text-danger">
+					<q>Had a fantastic experience buying my vehicle from Sialkot Motors. It was a one-stop shop for all of my questions and made car buying a worry-free experience. I also feel that I got an exceptional value and was offered a high level of customer service. Highly recommend going to Sialkot Motors if you're in the market for a new or slightly used vehicle. </q>
+					<p class="author">- Customer Name (Nissan Van) -</p>
+				</div>
+
+				<div class="mySlides">
+					<img src="images/customer5.jpg" alt="Customer Testimonial" class="img-fluid mx-auto">
+					<hr class="text-danger">
+					<q>My experience purchasing a car from Sialkot Motors was excellent. I worked with the sales manager through the entire purchase. I would highly recommend working with Sialkot Motors to purchase your next vehicle.</q>
+					<p class="author">- Customer Name (Totota Harrier) -</p>
+				</div>
+
+				<!-- Next/prev buttons -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				<!-- Dots/bullets/indicators -->
+				<div class="dot-container">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
+				</div>
+			</div>
+		</section>	
+		<!-- End of Testimonial Carousel -->
+	</main>
+	<!-- End of Main section of Homepage -->
+
+	<!-- Begin Footer section -->
+	<hr class="my-5">
+	<!-- Footer Section -->
+	<section class="footer">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-4 col-sm-12">
+					<h3 class="text-center py-5">Quick <span class="text-custom">Links</span></h3>
+					<!-- Quick Links -->
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item list-group-item-success  active"><a href="#">Home</a></li>
+						<li class="list-group-item list-group-item-success"><a href="inventory.html">Inventory</a></li>
+						<li class="list-group-item list-group-item-success"><a href="about.html">About</a></li>
+						<li class="list-group-item list-group-item-success"><a href="contact.html">Contact</a></li>
+						<!-- <li class="list-group-item"></li> -->
+					</ul>
+					<div class="call-area py-2">
+						<h5 class="text-center py-2">Office Hours</h5>
+						<table class="table table-borderless">
+							<thead class="table-dark">
+								<tr>
+									<th>#</th>
+									<th>Work Day</th>
+									<th>Open Hours</th>
+								</tr>
+							</thead>
+							<tbody class="table-success table-striped">
+								<tr>
+									<td><i class="fas fa-clock" aria-hidden="true"></i></td>
+									<td>Monday-Friday</td>
+									<td>08:30AM - 06:00PM</td>
+								</tr>
+								<tr>
+									<td><i class="fas fa-clock" aria-hidden="true"></i></td>
+									<td>Saturday - Sunday:</td>
+									<td>09:30AM - 04:00PM</td>
+								</tr>
+							</tbody>
+
+						</table>
+						
+					</div>
+					<div class="logo-area py-2">
+						<img src="images/logo.jpg" alt="Sialkot Motor Logo" class="img-fluid rounded mx-auto d-block">
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<h3 class="text-center py-5">Visit <span class="text-custom">Us</span></h3>
+					<div class="map-area">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7923253019817!2d36.789164514547345!3d-1.2994004360066078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f119dae54cb49%3A0x136fa37cb454f5ab!2sSialkot%20Motor%20Ltd!5e0!3m2!1sen!2ske!4v1635249150707!5m2!1sen!2ske" width="100%" height="100%" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+					<!-- Map Area -->
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<h3 class="text-center py-5">Contact <span class="text-custom">Info</span></h3>
+					<!-- Contacts & Social Media -->
+					<div class="call-area text-center">
+						<h5>Call Us</h5>
+						<p><i class="fa fa-phone fa-lg" aria-hidden="true"></i> &nbsp; +254-717707002</p>
+						<p><i class="fa fa-phone fa-lg" aria-hidden="true"></i> &nbsp; +254-740852553</p>
+					</div>
+					<div class="call-area text-center">
+						<h5>Email</h5>
+						<p><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> &nbsp; info@sialkotmotors.co.ke</p>
+						<p><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> &nbsp; sialkotmotorsltd@gmail.com</p>
+						<!-- <p><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> &nbsp; </p> -->
+					</div>
+					<div class="call-area text-center">
+						<h5>Yard</h5>
+						<p><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i> &nbsp;  Opposite Ngong Hills Hotel,<br> Ngong Road, <br> Nairobi.</p>
+						 <!-- <p><i class="fa fa-address-book fa-lg" aria-hidden="true"></i> &nbsp; PQ4X+338, Nairobi</p> -->
+						<!-- <p><i class="fa fa-envelope fa-lg" aria-hidden="true"></i> &nbsp; </p> -->
+					</div>
+				</div>
+			</div>
+			<!-- Copyright Section -->
+			<div class="copyright-area">
+				<p class="d-flex justify-content-center align-items-center h-100 my-0">Copyright &nbsp; &nbsp;
+					<span>
+						<i class="fas fa-copyright fa-lg"></i>
+					</span>
+					&nbsp; &nbsp;
+					<a href="#" class="text-primary">Sialkot Motor Ltd</a>
+					&nbsp; &nbsp;
+					&nbsp;<span id="copyright-text"></span>
+				</p>
+			</div>
+			<!-- End of copyright section -->
+		</div>
+	</section>
+	<!-- End of footer section -->
+	<!-- End of Footer section -->
+	<script>
+		function displayYear(){
+			const d = new Date();
+			document.getElementById('copyright-text').innerHTML = d.getFullYear();
+		}
+	</script>
+	<!--  Bootstrap Js + Popper Js -->
+	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="js/popper.js"></script>
+	<!-- Testimonials JS -->
+	<script src="js/testimonials.js"></script>
+	<!-- jquery JS -->
+    <script src="js/jquery.min.js"></script>
+</body>
+</html>
